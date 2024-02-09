@@ -1,11 +1,19 @@
-## My Project
+# amazon-chime-sdk-ios-no-video-codecs-spm
+# Swift Package Manager support for Amazon Chime SDK for iOS
 
-TODO: Fill this README out!
+This repository enables Swift Package Manager support for the [Amazon Chime Mobile SDK for iOS](https://github.com/aws/amazon-chime-sdk-ios) No Video Codecs by vending a Manifest file (`Package.swift`) that links to binary targets for the SDKs.
 
-Be sure to:
+## Adding Amazon Chime SDK No Video Codecs for iOS via Swift Package Manager
 
-* Change the title in this README
-* Edit your repository description on GitHub
+1. Open your project in Xcode
+
+2. Go to **File** > **Swift Packages** > **Add Package Dependency...**
+
+3. In the field **Enter package repository URL**, enter "https://github.com/aws/amazon-chime-sdk-ios-no-video-codecs-spm"
+
+4. Pick the latest version and click **Next**.
+
+5. Choose the packages required for your project and click **Finish**
 
 ## Security
 
@@ -15,3 +23,6 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 
 This project is licensed under the Apache-2.0 License.
 
+## Notice
+
+You and your end users are responsible for all Content (including any images) uploaded for use with background replacement, and must ensure that such Content does not violate the law, infringe or misappropriate the rights of any third party, or otherwise violate a material term of your agreement with Amazon (including the documentation, the AWS Service Terms, or the Acceptable Use Policy).
