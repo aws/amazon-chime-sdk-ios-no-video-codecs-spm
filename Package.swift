@@ -24,17 +24,17 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AmazonChimeSDK",
-            url: "\(hostingUrl)/sdk-without-bitcode/\(SDKVersion)/spm/AmazonChimeSDK-\(SDKVersion).zip",
+            url: "\(hostingUrl)/sdk/\(SDKVersion)/spm/AmazonChimeSDK-\(SDKVersion).zip",
             checksum: SDKChecksum
         ),
         .binaryTarget(
             name: "AmazonChimeSDKMedia",
-            url: "\(hostingUrl)/media-no-video-codecs-without-bitcode/\(SDKMediaVersion)/spm/AmazonChimeSDKMediaNoVideoCodecs-\(SDKMediaVersion).zip",
+            url: "\(hostingUrl)/media-no-video-codecs/\(SDKMediaVersion)/spm/AmazonChimeSDKMediaNoVideoCodecs-\(SDKMediaVersion).zip",
             checksum: SDKMediaChecksum
         ),
         .binaryTarget(
             name: "AmazonChimeSDKMachineLearning",
-            url: "\(hostingUrl)/machine-learning-without-bitcode/\(SDKMachineLearningVersion)/spm/AmazonChimeSDKMachineLearning-\(SDKMachineLearningVersion).zip",
+            url: "\(hostingUrl)/machine-learning/\(SDKMachineLearningVersion)/spm/AmazonChimeSDKMachineLearning-\(SDKMachineLearningVersion).zip",
             checksum: SDKMachineLearningChecksum
         )
     ]
